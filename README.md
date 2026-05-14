@@ -2,7 +2,6 @@
 
 **MedicareAI** is an advanced, AI-powered healthcare analytics platform designed to predict multiple life-threatening diseases with high accuracy. Built using **Python** and **Streamlit**, it leverages sophisticated machine learning models to provide instant health insights and predictive analytics.
 
----
 
 ## 🚀 Key Features
 
@@ -13,7 +12,6 @@
 * **PDF Report Generation:** Securely generates and allows users to download detailed health reports.
 * **History Tracking:** Maintains a local SQLite database of previous health checks for recovery monitoring.
 
----
 
 ## 🛠️ Tech Stack
 
@@ -25,7 +23,6 @@
 - **Database:** SQLite
 - **Report Engine:** FPDF2
 
----
 
 ## 📁 Project Structure
 
