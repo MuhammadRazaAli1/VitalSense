@@ -51,7 +51,7 @@ streamlit run app.py
 * Training: Models are trained using Ensemble learning techniques.
 * Persistence: Models are saved as .joblib files to ensure fast loading during production.
 
-👤 Author
+👤 Author\n
 Muhammad Raza Ali Computer Science Student & Aspiring Data Scientist
 
 Gojra, Punjab, Pakistan
