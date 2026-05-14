@@ -32,19 +32,22 @@ MedicareAI/
 
 
 ⚙️ Installation & Setup
+
 Clone the repository:
 
 `Bash`
 `git clone https://github.com/YOUR_USERNAME/MedicareAI.git`
 `cd MedicareAI`
-`Install dependencies:`
 
-Bash
-pip install -r requirements.txt
+Install dependencies:
+
+`Bash`
+`pip install -r requirements.txt`
+
 Run the application:
 
-Bash
-streamlit run app.py
+`Bash`
+`streamlit run app.py`
 
 📊 Methodology
 
