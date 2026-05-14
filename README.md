@@ -15,17 +15,17 @@ MedicareAI is an advanced, AI-powered healthcare analytics platform designed to 
 6. History Tracking: Maintains a local database of previous health checks for recovery monitoring.
 
 🛠️ Tech Stack
-1. Language: Python 3.x
+* Language: Python 3.x
 
-2. Frontend & Backend: Streamlit
+* Frontend & Backend: Streamlit
 
-3. Machine Learning: Scikit-learn (RandomForest, GradientBoosting)
+* Machine Learning: Scikit-learn (RandomForest, GradientBoosting)
 
-4. Data Handling: Pandas, Numpy
+* Data Handling: Pandas, Numpy
 
-5. Model Serialization: Joblib
+* Model Serialization: Joblib
 
-6. Database: SQLite
+* Database: SQLite
 
 📁 Project Structure
 Plaintext
