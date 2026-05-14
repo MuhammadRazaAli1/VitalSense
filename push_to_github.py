@@ -3,7 +3,7 @@ import os
 
 # --- SETTINGS ---
 # Apni GitHub Repository ka URL yahan paste karein
-REPO_URL = "https://github.com/MuhammadRazaAli1/MedicareAI.git" 
+REPO_URL = "https://github.com/MuhammadRazaAli1/MedicareAI" 
 COMMIT_MESSAGE = "Update: Final project with datasets and models"
 
 def run_git_commands():
