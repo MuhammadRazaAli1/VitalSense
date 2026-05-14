@@ -29,13 +29,15 @@ MedicareAI/
 ├── trained_models/     # Pre-trained .joblib model files
 ├── app.py              # Main entry point of the application
 └── requirements.txt    # List of dependencies
+
+
 ⚙️ Installation & Setup
 Clone the repository:
 
-Bash
-git clone https://github.com/YOUR_USERNAME/MedicareAI.git
-cd MedicareAI
-Install dependencies:
+`Bash`
+`git clone https://github.com/YOUR_USERNAME/MedicareAI.git`
+`cd MedicareAI`
+`Install dependencies:`
 
 Bash
 pip install -r requirements.txt
