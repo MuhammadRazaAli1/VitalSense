@@ -32,7 +32,7 @@ MedicareAI/
 ├── data_set/           # Generated CSV datasets for transparency
 ├── trained_models/     # Pre-trained .joblib model files
 ├── app.py              # Main entry point of the application
-└── requirements.txt    # List of dependencies'''
+└── requirements.txt    # List of dependencies```
 
 
 ⚙️ Installation & Setup
