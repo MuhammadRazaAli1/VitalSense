@@ -1,4 +1,5 @@
 🩺 MedicareAI: Multi-Disease Prediction Engine
+
 MedicareAI is an advanced, AI-powered healthcare analytics platform designed to predict multiple life-threatening diseases with high accuracy. Built using Python and Streamlit, it leverages machine learning models to provide instant health insights based on clinical parameters.
 
 🚀 Key Features
@@ -51,7 +52,7 @@ streamlit run app.py
 * Training: Models are trained using Ensemble learning techniques.
 * Persistence: Models are saved as .joblib files to ensure fast loading during production.
 
-👤 Author\n
-Muhammad Raza Ali Computer Science Student & Aspiring Data Scientist
+👤 Author
 
+Muhammad Raza Ali Computer Science Student & Aspiring Data Scientist
 Gojra, Punjab, Pakistan
