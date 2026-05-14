@@ -12,7 +12,7 @@ from interface.sections import (
 )
 
 st.set_page_config(
-    page_title="MediCare AI - Multi-Disease Prediction",
+    page_title="MediCareAI",
     page_icon="\U0001F3E5",
     layout="wide",
     initial_sidebar_state="expanded",
