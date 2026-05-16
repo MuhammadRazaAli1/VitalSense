@@ -10,6 +10,7 @@ from interface.sections import (
     recovery,
     report,
 )
+from st_supabase_connection import SupabaseConnection
 
 st.set_page_config(
     page_title="MediCareAI",
