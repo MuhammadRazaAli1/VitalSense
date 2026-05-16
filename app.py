@@ -50,3 +50,37 @@ routes = {
 }
 
 routes[active](user)
+
+
+# Supabase Client initialize karein (yeh secrets se khud detail utha lega)
+conn = st.connection("supabase", type=SupabaseConnection)
+
+st.title("MediCareAI - Permanent Data Storage")
+
+# Example Form data collect karne ke liye
+with st.form("patient_form"):
+    patient_name = st.text_input("Patient Name")
+    age = st.number_input("Age", min_value=1, max_value=120)
+    diagnosis = st.text_area("Diagnosis / AI Analysis")
+    
+    submit_button = st.form_submit_button(label="Save Data Permanently")
+
+if submit_button:
+    if patient_name and diagnosis:
+        # Data dictionary jo table mein insert karni hai
+        data_to_insert = {
+            "patient_name": patient_name,
+            "age": age,
+            "diagnosis": diagnosis
+        }
+        
+        try:
+            # 'your_table_name' ko apni actual Supabase table name se badli karein
+            response = conn.table("your_table_name").insert(data_to_insert).execute()
+            
+            st.success("🎉 Data kamyabi se permanent database mein save ho gaya!")
+            st.json(response.data)
+        except Exception as e:
+            st.error(f"Masla aya: {e}")
+    else:
+        st.warning("Meherbani karke saari fields fill karein.")
