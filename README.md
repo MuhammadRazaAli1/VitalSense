@@ -35,7 +35,7 @@ MedicareAI/
 ├── app.py               # Main entry point of the application
 └── requirements.txt     # Essential project dependencies
 
-⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 Clone the repository:
 
 Bash
@@ -49,7 +49,8 @@ Run the application:
 
 Bash
 streamlit run app.py
-👤 Author
+
+##👤 Author
 Muhammad Raza Ali Computer Science Student & Aspiring Data Scientist
 
 Gojra, Punjab, Pakistan
